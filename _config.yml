@@ -22,7 +22,7 @@ title: Hexadess Games
 email: hexadessgames@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hexadess Games Inc. is a video game studio based in Saskatchewan, Canada
-baseurl: "/rhythmstation" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://hexadessgames.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: HexadessGames
 
