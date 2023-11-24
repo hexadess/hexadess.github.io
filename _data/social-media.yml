@@ -1,0 +1,29 @@
+email:
+  id: 'hexadessgames@gmail.com'
+  href: 'mailto:'
+  title: 'Email'
+  bi-icon: 'bi-envelope'
+
+facebook:
+  id: '61551917925795'
+  href: 'https://www.facebook.com/'
+  title: 'Facebook'
+  bi-icon: 'bi-facebook'
+
+instagram:
+  id: 'hexadess_games'
+  href: 'https://www.instagram.com/'
+  title: 'Instagram'
+  bi-icon: 'bi-instagram'
+
+twitter:
+  id: 'HexadessGames'
+  href: 'https://www.twitter.com/'
+  title: 'Twitter'
+  bi-icon: 'bi-twitter-x'
+
+youtube:
+  id: '@HexadessGames'
+  href: 'https://www.youtube.com/'
+  title: 'Youtube'
+  bi-icon: 'bi-youtube'

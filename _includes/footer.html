@@ -1,5 +1,20 @@
 <div class="bg-body-tertiary pt-5 pb-5">
     <div class="container">
-        Hexadess Games Inc.
-    </div>
+        <div class="navbar-expand-lg navbar">
+            <div class="me-auto">
+                Hexadess Games Inc.
+            </div>
+            {% if site.data.social-media %}
+            <div id="social-media">
+                {% assign sm = site.data.social-media %}
+                {% for entry in sm %}
+                    {% assign key = entry | first %}
+                    {% if sm[key].id %}
+                        <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}"><i class="ms-1 fs-5 bi {{ sm[key].bi-icon }}" style="color: black; width: 32px;"></i></a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+    </div>  
 </div>
