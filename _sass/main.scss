@@ -5,3 +5,36 @@
 html, body {
     margin: 0px; padding: 0px
 }
+
+body {
+    min-height: 100vh;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("/assets/images/rhythm_station_lib_hero_website.png");
+    height: 50vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.rhythm-station-background {
+    background-color: #1f162d;
+}
+
+.wishlist-button {
+    background-color: black;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 15px;
+    // color: black;
+    // background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
