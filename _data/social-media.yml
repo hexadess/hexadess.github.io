@@ -27,3 +27,9 @@ youtube:
   href: 'https://www.youtube.com/'
   title: 'Youtube'
   bi-icon: 'bi-youtube'
+
+steam:
+  id: 'Hexadess Games Inc.'
+  href: 'https://store.steampowered.com/search/?publisher='
+  title: 'Steam'
+  bi-icon: 'bi-steam'
