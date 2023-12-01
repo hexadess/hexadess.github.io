@@ -4,7 +4,11 @@ layout: default
 title: Blog
 ---
 <div class="container mt-3">
-    <div class="fs-4">
-        Coming soon!
-    </div>
+    <ul>
+        {% for post in site.posts %}
+          <li class="fs-4" >
+            <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date_to_string: "ordinal", "US" }}
+          </li>
+        {% endfor %}
+      </ul>
 </div>

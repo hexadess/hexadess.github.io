@@ -4,6 +4,30 @@ email:
   title: 'Email'
   bi-icon: 'bi-envelope'
 
+steam:
+  id: 'Hexadess Games Inc.'
+  href: 'https://store.steampowered.com/search/?publisher='
+  title: 'Steam'
+  bi-icon: 'bi-steam'
+
+discord:
+  id: 'K6WVCURD'
+  href: 'https://discord.gg/'
+  title: 'Discord'
+  bi-icon: 'bi-discord'
+
+youtube:
+  id: '@HexadessGames'
+  href: 'https://www.youtube.com/'
+  title: 'Youtube'
+  bi-icon: 'bi-youtube'
+
+twitter:
+  id: 'HexadessGames'
+  href: 'https://www.twitter.com/'
+  title: 'Twitter'
+  bi-icon: 'bi-twitter-x'
+
 facebook:
   id: '61551917925795'
   href: 'https://www.facebook.com/'
@@ -15,21 +39,3 @@ instagram:
   href: 'https://www.instagram.com/'
   title: 'Instagram'
   bi-icon: 'bi-instagram'
-
-twitter:
-  id: 'HexadessGames'
-  href: 'https://www.twitter.com/'
-  title: 'Twitter'
-  bi-icon: 'bi-twitter-x'
-
-youtube:
-  id: '@HexadessGames'
-  href: 'https://www.youtube.com/'
-  title: 'Youtube'
-  bi-icon: 'bi-youtube'
-
-steam:
-  id: 'Hexadess Games Inc.'
-  href: 'https://store.steampowered.com/search/?publisher='
-  title: 'Steam'
-  bi-icon: 'bi-steam'
