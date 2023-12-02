@@ -32,7 +32,7 @@ The other part is that people still want to limit risk as much as possible. So t
 Then they just feel like melee is really punishing to use compared to shooting.
 
 Back to the drawing board. What if instead of being able to melee and shoot at the same time, you could only do one or the other? I.e. What if the player couldn't melee with their off hand, and there were a
-mix of dedicated melee and ranged weapons. I thought this had a few benefits. It would still be runs different based on whether the player had a melee or ranged weapon and they would have to choose items/upgrades
+mix of dedicated melee and ranged weapons. I thought this had a few benefits. It would still make runs different based on whether the player had a melee or ranged weapon and they would have to choose items/upgrades
 that worked well with their weapon. Another one is that it simplified gameplay. Players only have one attack button to worry about hitting on beat. And finally, I thought dedicated melee weapons could have slightly
 more range than just the player's claw, making it a bit easier to use. So I quickly whipped up a bat melee weapon to test out
 
