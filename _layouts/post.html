@@ -1,40 +1,23 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Hexadess Games Inc. is video game studio based in Saskatchewan, Canada" name="description" />
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
-  </head>
-  <body class="d-flex flex-column">
-    {% include header.html %}
-    <div class="flex-grow-1 container mt-3">
-      {{ content }}
-      {% if page.comments %}
-      <div class="mt-4 mb-4">
-        <div id="disqus_thread"></div>
-        <script>      
-            var disqus_config = function () {
-            this.page.url = "https://www.hexadessgames.com{{ page.url }}";
-            this.page.identifier = "{{ page.title }}";
-            };
-            
-            (function() { // DON'T EDIT BELOW THIS LINE
-            var d = document, s = d.createElement('script');
-            s.src = 'https://hexadess-games.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-      </div>
-      {% endif %}
-    </div>
-    {% include footer.html %}
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
-</html>
+---
+layout: blog
+---
+{{ content }}
+{% if page.comments %}
+<div class="mt-4 mb-4">
+  <div id="disqus_thread"></div>
+  <script>      
+      var disqus_config = function () {
+      this.page.url = "https://www.hexadessgames.com{{ page.url }}";
+      this.page.identifier = "{{ page.title }}";
+      };
+      
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://hexadess-games.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+{% endif %}
