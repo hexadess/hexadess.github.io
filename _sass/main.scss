@@ -29,12 +29,24 @@ body {
     outline: 0;
     display: inline-block;
     padding: 15px;
-    // color: black;
-    // background-color: #ddd;
     text-align: center;
     cursor: pointer;
     position: absolute;
     top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.discord-button {
+    background-color: black;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
