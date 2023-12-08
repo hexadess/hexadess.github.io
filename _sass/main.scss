@@ -23,30 +23,11 @@ body {
     background-color: #1f162d;
 }
 
-.wishlist-button {
-    background-color: black;
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 15px;
-    text-align: center;
-    cursor: pointer;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+.hero-buttons {
+    height: 100%;
+}
 
-.discord-button {
-    background-color: black;
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 15px;
-    text-align: center;
-    cursor: pointer;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+.hero-buttons-row {
+    height: 40%;
+    align-items: flex-end;
+}
