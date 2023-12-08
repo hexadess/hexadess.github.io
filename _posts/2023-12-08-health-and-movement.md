@@ -39,7 +39,7 @@ tiring. <a href="https://store.steampowered.com/app/247080/Crypt_of_the_NecroDan
 {: refdef}
 
 It had been suggested by a few people who have tried my game that maybe it'd be good to have discrete movement similar to CotN, but I've been fairly adamant about not doing this for the reason above. Further, I want Rhythm
-Station to feel a little more fast paced, and making the movement discrete definitely makes it feel closer to turn-based. Then someone tried my game and suggested that maybe it'd be cool if the character only moved on beat,
+Station to feel a little more fast paced, and making the movement discrete definitely makes it feel closer to turn-based. At this recent game design meetup, someone tried my game and suggested that maybe it'd be cool if the character only moved on beat,
 but you didn't have to actually press the buttons on beat. It just took whatever movement input was set during the beat and did that. I actually had tried this before, and it didn't end up working out because the beat window
 is pretty small and you either just inch along every beat, or you crank up the on-beat movement so much that you're basically teleporting every beat, which is hard to control. But this time the suggestion made me think,
 "What if the player dashed every beat but didn't move otherwise?". Dashes last longer than the on-beat window, so it doesn't feel like your teleporting, but the movement definitely feels in line with the beat due to the dash
