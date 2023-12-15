@@ -34,9 +34,9 @@ at the boss fight you can trade a portion of your health for the ability to retr
 So far, the player's movement has been unrestricted in Rhythm Station. You can move in any direction at any time. I initially had gone this route because I find having to press a button to move every beat very
 tiring. <a href="https://store.steampowered.com/app/247080/Crypt_of_the_NecroDancer/" target="_blank">Crypt of the Necrodancer</a> (CotN) is where my experience on this comes from. While I enjoy that game, I can only play it in smaller bursts because of the relentlessness of having to tap a button every single beat.
 
-{:refdef: style="text-align: center;"}
-![Image of player moving freely](/assets/images/blogs/health-and-movement/continuous-movement.gif){: width="400" }
-{: refdef}
+<div align="center">
+  <img alt="Gif of player moving freely" src="/assets/images/blogs/health-and-movement/continuous-movement.gif" style="max-width: 400px; width: 100%;"/>
+</div>
 
 It had been suggested by a few people who have tried my game that maybe it'd be good to have discrete movement similar to CotN, but I've been fairly adamant about not doing this for the reason above. Further, I want Rhythm
 Station to feel a little more fast paced, and making the movement discrete definitely makes it feel closer to turn-based. At this recent game design meetup, someone tried my game and suggested that maybe it'd be cool if the character only moved on beat,
@@ -45,9 +45,10 @@ is pretty small and you either just inch along every beat, or you crank up the o
 "What if the player dashed every beat but didn't move otherwise?". Dashes last longer than the on-beat window, so it doesn't feel like your teleporting, but the movement definitely feels in line with the beat due to the dash
 getting kicked off every beat. I coded up the change to see what it was like.
 
-{:refdef: style="text-align: center;"}
-![Image of player dashing on beat](/assets/images/blogs/health-and-movement/beat-movement.gif){: width="400" }
-{: refdef}
+<div align="center">
+  <img alt="Gif of player dashing on beat" src="/assets/images/blogs/health-and-movement/beat-movement.gif" style="max-width: 400px; width: 100%;"/>
+</div>
+
 
 I made the enemies and projectiles move like this as well so everything was dashing to the beat. It was kind of fun to move like this, but once I started trying to play the game, it became apparent that it was way harder to aim when movement is
 happening like this. You have to shoot on beat, but every beat you and the enemies suddenly lunge in a direction, making the enemies hard to track. I did find it easier to track the beat of the music with this style of movement though. Another observation

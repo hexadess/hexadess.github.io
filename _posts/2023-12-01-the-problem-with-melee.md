@@ -12,9 +12,9 @@ With Rhythm Station being a roguelike game, I wanted ways for players to be able
 Initially the only things the player could do were shoot and dash. A few people that played the game had asked for the ability to melee and I thought this would be a good way to differentiate builds.
 There could be items that improved melee or made short range combat more lucrative and the same for long range combat. So I added melee as an action the player could do at any time.
 
-{:refdef: style="text-align: center;"}
-![Image of player meleeing](/assets/images/blogs/the-problem-with-melee/hand-melee.gif){: width="400" }
-{: refdef}
+<div align="center">
+  <img alt="Gif of player meleeing" src="/assets/images/blogs/the-problem-with-melee/hand-melee.gif" style="max-width: 400px; width: 100%;"/>
+</div>
 
 I added stamina (blue bars in the GIF) that would get used up when the player dashed or melee'd, but would refill every beat if they were not doing either of those things.
 I thought this worked well with the shooting, which had a similar mechanism of using bullets and refilling while the player wasn't shooting. Players would have to balance between
@@ -37,9 +37,9 @@ mix of dedicated melee and ranged weapons. I thought this had a few benefits. It
 that worked well with their weapon. Another one is that it simplified gameplay. Players only have one attack button to worry about hitting on beat. And finally, I thought dedicated melee weapons could have slightly
 more range than just the player's claw, making it a bit easier to use. So I quickly whipped up a bat melee weapon to test out
 
-{:refdef: style="text-align: center;"}
-![Image of player holding bat](/assets/images/blogs/the-problem-with-melee/Bat.png){: width="400" }
-{: refdef}
+<div align="center">
+  <img alt="Image of player holding bat" src="/assets/images/blogs/the-problem-with-melee/Bat.png" style="max-width: 400px; width: 100%;"/>
+</div>
 
 After just playtesting the game myself for a while, I could tell this was going to be another failure. The game was still just easier to play with the gun and I was always taking more hits when using the bat.
 The small amount of extra range you got from the bat was not enough extra reaction time to make a difference. The only way to make the melee weapons not feel bad was to make them one-hit kill the enemies, which
@@ -50,10 +50,10 @@ So I made the decision to scrap melee from the game altogether. This did throw a
 I came up with the idea to have different types of guns. Some of them with shorter range and more damage (e.g. shotgun) and some of them with longer range and less damage (e.g. pistol). This would still allow for
 different builds based on whether you were using a shorter range weapon or a longer range one. After building out three different guns, they all end up feeling good to play with!
 
-<div align="center">
-  <img alt="Image of player shooting shotgun" src="/assets/images/blogs/the-problem-with-melee/shotgun-shot.png" width="400" style="margin: 10px;"/>
-  <img alt="Image of player shooting assault rifle" src="/assets/images/blogs/the-problem-with-melee/assault-rifle-shot2.png" width="400" style="margin: 10px;"/>
-  <img alt="Image of player shooting pistol" src="/assets/images/blogs/the-problem-with-melee/pistol-shot.png" width="400" style="margin: 10px;"/>
+<div align="center" class="d-flex justify-content-around flex-wrap">
+  <img alt="Image of player shooting shotgun" src="/assets/images/blogs/the-problem-with-melee/shotgun-shot.png" style="padding: 10px; max-width: 400px;"/>
+  <img alt="Image of player shooting assault rifle" src="/assets/images/blogs/the-problem-with-melee/assault-rifle-shot2.png" style="padding: 10px; max-width: 400px;"/>
+  <img alt="Image of player shooting pistol" src="/assets/images/blogs/the-problem-with-melee/pistol-shot.png" style="padding: 10px; max-width: 400px;"/>
 </div>
 
 So I've decided to leave melee out of the game and just focus on having different guns. Melee seemed like a really good idea in theory, but it just didn't work out in practice.
