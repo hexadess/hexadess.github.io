@@ -2,7 +2,7 @@
 layout: post
 title:  "Small Boss Update"
 date:   2024-02-16 09:30:00 -0600
-tags: rhythm-station weekly-update audio
+tags: rhythm-station weekly-update
 comments: true
 ---
 
