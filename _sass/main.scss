@@ -22,9 +22,11 @@ body {
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("/assets/images/rhythm_station_lib_hero_website.png");
-    height: 50vh;
-    background-position: bottom;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("/assets/images/Library_Hero_Logo.png");
+    aspect-ratio: 3/1;
+    width: 100%;
+    min-height: 250px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -39,6 +41,6 @@ body {
 }
 
 .hero-buttons-row {
-    height: 40%;
+    height: 95%;
     align-items: flex-end;
 }
