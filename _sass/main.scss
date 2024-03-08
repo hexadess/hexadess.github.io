@@ -41,6 +41,20 @@ body {
 }
 
 .hero-buttons-row {
-    height: 95%;
+    height: 98%;
     align-items: flex-end;
 }
+
+.desktop {
+    display: block;
+    height: 100%;
+}
+
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-device-width: 1000px) {
+    .mobile{display: block;}       
+    .desktop {display: none;}
+} 
