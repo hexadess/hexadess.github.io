@@ -13,7 +13,7 @@ I've also done a little improvement on the shop items algorithm so that the item
 
 # Question Mark Rooms
 
-One of the room types I added to my game is question mark room. I had the idea of wanting rooms with unknown outcomes (fairly standard in roguelikes), but until now I hadn't actually implemented any.
+One of the room types I added to my game is question mark rooms. I had the idea of wanting rooms with unknown outcomes (fairly standard in roguelikes), but until now I hadn't actually implemented any.
 This week I finally started adding some to the game. I wanted these events to be mostly give and take in nature. You get something good at a cost.
 
 <div align="center" class="d-flex justify-content-around flex-wrap">
