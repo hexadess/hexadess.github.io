@@ -2,7 +2,7 @@
 layout: post
 title:  "Gun Sight and Boss Animations"
 date:   2024-03-29 09:30:00 -0600
-tags: rhythm-station weekly-update graphics
+tags: rhythm-station weekly-update graphics audio
 comments: true
 ---
 
