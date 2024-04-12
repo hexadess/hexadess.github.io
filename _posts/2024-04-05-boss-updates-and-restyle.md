@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Boss Updates and Restyle"
-date:   2024-04-01 09:30:00 -0600
+date:   2024-04-05 09:30:00 -0600
 tags: rhythm-station weekly-update graphics audio
 comments: true
 ---
