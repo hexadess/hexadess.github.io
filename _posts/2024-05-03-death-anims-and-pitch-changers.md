@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Death Animations and Pitch Changers"
-date:   2024-04-26 09:30:00 -0600
+date:   2024-05-03 09:30:00 -0600
 tags: rhythm-station weekly-update audio graphics
 comments: true
 ---
